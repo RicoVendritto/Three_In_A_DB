@@ -40,3 +40,5 @@ class ReviewsController < ApplicationController
     @review = @autopart.reviews.find_by!(id: params[:id]) if @autopart
   end
 end
+
+##BY RICO##

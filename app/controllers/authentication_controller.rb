@@ -13,3 +13,5 @@ class AuthenticationController < ApplicationController
     params.permit(:email, :password)
   end
 end
+
+##BY RICO##

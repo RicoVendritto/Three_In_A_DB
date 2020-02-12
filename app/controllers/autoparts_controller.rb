@@ -40,3 +40,5 @@ class AutopartsController < ApplicationController
     @autopart = @order.autoparts.find_by!(id: params[:id]) if @order
   end
 end
+
+##BY RICO##
